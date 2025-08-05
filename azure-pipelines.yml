@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: windows-latest
+  vmImage: PRODUCTION-VM
 
 steps:
 - script: echo Hello, world!
